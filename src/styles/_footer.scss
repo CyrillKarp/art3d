@@ -1,0 +1,100 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: $colorBlack;
+}
+
+.phone {
+  padding: 0 20px;
+  cursor: pointer;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.call-me {
+  margin-right: 20px;
+  color: $colorGreen;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:before {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding-right: 5px;
+    content: url(../img/phone.svg);
+    vertical-align: middle;
+  }
+}
+
+.socials {
+  display: flex;
+}
+
+$socials: (
+  ('facebook', url(../img/facebook.svg)),
+  ('vk', url(../img/vk.svg)),
+  ('instagram', url(../img/instagram.svg))
+);
+
+@each $sb in $socials {
+  .socials__#{nth($sb, 1)} {
+    background-image: nth($sb, 2);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: all 200ms linear;
+
+    &:hover {
+      filter: none;
+    }
+  }
+}
+
+.right-block {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: $colorGrayLight;
+
+  & a {
+    color: $colorGrayLight;
+  }
+}
+
+.copyright {
+  margin-right: 20px;
+}
+
+.declaration {
+  margin-right: 20px;
+}
+
+.brochure {
+  margin-right: 40px;
+}
+
+.brochure__icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  padding-right: 10px;
+  background-image: url(../img/download.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px;
+  vertical-align: middle;
+}

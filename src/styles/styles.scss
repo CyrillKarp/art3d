@@ -1,0 +1,20 @@
+// Внешние файлы
+@import "normalize";
+
+// CSS-Переменные
+@import "vars";
+
+// Основные стили (общие для всей страницы)
+@import "main";
+
+// Стили для каждой секции
+@import "header";
+@import "content";
+@import "bottom-panel";
+@import "footer";
+
+// // Media-queries
+// @import "media";
+
+
+
