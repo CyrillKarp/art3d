@@ -605,37 +605,37 @@ li {
 .slideshow__img[data-num="1"] {
   background-image: url(../img/bg-img1.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .slideshow__img[data-num="2"] {
   background-image: url(../img/bg-img2.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .slideshow__img[data-num="3"] {
   background-image: url(../img/bg-img3.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .slideshow__img[data-num="4"] {
   background-image: url(../img/bg-img4.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .slideshow__img[data-num="5"] {
   background-image: url(../img/bg-img5.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .slideshow__img[data-num="6"] {
   background-image: url(../img/bg-img6.jpg);
   background-position: center top;
-  background-size: auto 100%;
+  background-size: 50px 30px;
   background-repeat: no-repeat; }
 
 .gallery {
