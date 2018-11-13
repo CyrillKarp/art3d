@@ -39,7 +39,8 @@ $(document).ready(function() {
   }
 
   function handleClickSlideshow(e) {
-    console.log('clicked');
+    if (!$(e.target).hasClass('slideshow__img')) return;
+
     stopSlide();
 
     var currentNum = $('.slideshow__img_current').data('num');
