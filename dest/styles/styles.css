@@ -504,13 +504,14 @@ li {
   width: 10px;
   height: 10px;
   margin-top: 4px;
-  background-image: url(../img/arrow-down.png);
+  background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0px 0px;
   background-size: 100%; }
 
 .content__arrow_hidden {
-  background-image: url(../img/arrow-up.png); }
+  background-image: url(../img/sprite.png);
+  background-position: 0px -10px; }
 
 .content__article {
   position: relative;
@@ -772,8 +773,8 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
   border-radius: 50%;
   cursor: pointer;
@@ -790,8 +791,8 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
   border-radius: 50%;
   cursor: pointer;
@@ -808,8 +809,8 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
   border-radius: 50%;
   cursor: pointer;
@@ -846,11 +847,11 @@ li {
 
 .brochure__icon {
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   padding-right: 10px;
-  background-image: url(../img/download.png);
+  background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 12px;
+  background-position: 0px -20px;
+  background-size: 10px;
   vertical-align: middle; }
